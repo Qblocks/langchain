@@ -35,7 +35,7 @@ optional = true
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
-setuptools = "^67.6.1"
+setuptools = ">=67.6.1,<71.0.0"
 langchain = { path = "../langchain", develop = true }
 langchain-core = { path = "../core", develop = true }
 langchain-community = { path = "../community", develop = true }
